@@ -1,0 +1,7 @@
+# action.yml
+name: 'Run CI'
+description: 'Builds STM32 projects in repo'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
