@@ -1,2 +1,7 @@
-# fw-action-stm32build
-GitHub action for STM32 build
+# Format action
+This action builds an STM32 project.
+
+## Example usage
+```
+uses: unspun/fw-action-stm32build@:v1.6.1
+```

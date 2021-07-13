@@ -8,9 +8,8 @@ cd ..
 mkdir tmp
 
 # run build
-/opt/st/stm32cubeide_1.5.1/stm32cubeide --launcher.suppressErrors -nosplash -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data tmp -import $GITHUB_WORKSPACE -build all -no-indexer
+/opt/st/stm32cubeide/stm32cubeide --launcher.suppressErrors -nosplash -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data tmp -import $GITHUB_WORKSPACE -build all -no-indexer
 build_ret=$?
-
 
 # disable echo for summaries
 set +x
